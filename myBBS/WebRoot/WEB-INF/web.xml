@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>registerServlet</servlet-name>
+    <servlet-class>servlets.registerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>servlets.loginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>tipServlet</servlet-name>
+    <servlet-class>servlets.tipServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>sendTipServlet</servlet-name>
+    <servlet-class>servlets.sendTipServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>isReplyServlet</servlet-name>
+    <servlet-class>servlets.isReplyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>replyServlet</servlet-name>
+    <servlet-class>servlets.replyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteTipServlet</servlet-name>
+    <servlet-class>servlets.deleteTipServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>safeExitServlet</servlet-name>
+    <servlet-class>servlets.safeExitServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>alterUserInforServlet</servlet-name>
+    <servlet-class>servlets.alterUserInforServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>setSlientServlet</servlet-name>
+    <servlet-class>servlets.setSlientServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>managerServlet</servlet-name>
+    <servlet-class>servlets.managerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addBoardServlet</servlet-name>
+    <servlet-class>servlets.addBoardServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>sendTipBoardServlet</servlet-name>
+    <servlet-class>servlets.sendTipBoardServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchServlet</servlet-name>
+    <servlet-class>servlets.searchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addCollectServlet</servlet-name>
+    <servlet-class>servlets.addCollectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteCollectServlet</servlet-name>
+    <servlet-class>servlets.deleteCollectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addFriendServlet</servlet-name>
+    <servlet-class>servlets.addFriendServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteFriendServelet</servlet-name>
+    <servlet-class>servlets.deleteFriendServelet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>registerServlet</servlet-name>
+    <url-pattern>/register.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/login.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sendTipServlet</servlet-name>
+    <url-pattern>/sendTip.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>isReplyServlet</servlet-name>
+    <url-pattern>/isReply.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>replyServlet</servlet-name>
+    <url-pattern>/reply.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteTipServlet</servlet-name>
+    <url-pattern>/deleteTip.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>safeExitServlet</servlet-name>
+    <url-pattern>/safeExit.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>alterUserInforServlet</servlet-name>
+    <url-pattern>/alterUserInfor.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>setSlientServlet</servlet-name>
+    <url-pattern>/setSlient.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>managerServlet</servlet-name>
+    <url-pattern>/managerRegister.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addBoardServlet</servlet-name>
+    <url-pattern>/addBoard.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sendTipBoardServlet</servlet-name>
+    <url-pattern>/sendTipBoard.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchServlet</servlet-name>
+    <url-pattern>/search.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addCollectServlet</servlet-name>
+    <url-pattern>/addCollect.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteCollectServlet</servlet-name>
+    <url-pattern>/deleteCollect.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addFriendServlet</servlet-name>
+    <url-pattern>/addFriend.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteFriendServelet</servlet-name>
+    <url-pattern>/deleteFriend.do</url-pattern>
+  </servlet-mapping>
+  
+  
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+
+</web-app>
